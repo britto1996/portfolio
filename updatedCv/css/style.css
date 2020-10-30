@@ -13,6 +13,7 @@ h1 {
 
 h2 {
     color: green;
+    font-weight: normal;
 }
 
 h3 {
@@ -36,6 +37,10 @@ p {
       left: 200px;
 }
 
+.middle-container {
+    margin: 25px auto 25px auto;
+}
+
 .bottom-cloud {
        position: absolute;
 }
@@ -44,39 +49,37 @@ p {
     padding: 5px;
 }
 
-.skills {
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
     text-align: left;
-    padding-left: 10px;
 }
 
-.skill-1-heading {
-    position: relative;
-    left: 400px;
-    bottom: 200px;
-}
-
-.skill-1-para {
-    position: relative;
-    left: 400px;
-    bottom: 190px;
+.skill-1 {
+    float: left;
+    padding-right: 30px ;
 }
 
 .skill-2 {
-    position: relative;
-    left: 400px;
+    float: right;
+    padding-left: 30px;
 }
 
-.skill-2-heading {
-    position: relative;
-    right: 400px;
-    bottom: 200px;
+.skill-1-para {
+    line-height: 2;
+}
+
+.skill-row2 {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
 }
 
 .skill-2-para {
-    position: relative;
-    padding-left: 10px;
-    bottom: 190px;
+    line-height: 2;
 }
+
 
 .btn {
         background-color:#44c767;
